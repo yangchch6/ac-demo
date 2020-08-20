@@ -1,0 +1,5 @@
+import Demo from '../src/index';
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+class Demo extends Component {render(){return( <Demo/> )}}
+export default Demo;
