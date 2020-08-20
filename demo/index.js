@@ -7,7 +7,7 @@ import Clipboard from 'bee-clipboard';
 
 
 
-var Demo1 = require("./demolist/Demo1");var DemoArray = [{"example":<Demo1 />,"title":" 这是标题","code":"/**\n*\n* @title 这是标题\n* @description 这是描述\n*\n*/\nimport React, { Component } from 'react';\nimport Demo from 'ac-demo'\nclass Demo1 extends Component {\n    render () {\n        return (\n            <div className=\"demo-container\">\n                <Demo/>\n            </div>\n        )\n    }\n}\nexport default Demo1","desc":" 这是描述","scss_code":".demo-container {\n    background: #fff;\n}"}]
+var Demo1 = require("./demolist/Demo1");var Demo2 = require("./demolist/Demo2");var DemoArray = [{"example":<Demo1 />,"title":" 这是标题","code":"/**\n*\n* @title 这是标题\n* @description 这是描述\n*\n*/\nimport React, { Component } from 'react';\nimport Demo from 'ac-demo'\nclass Demo1 extends Component {\n    render () {\n        return (\n            <div className=\"demo-container\">\n                <Demo/>\n            </div>\n        )\n    }\n}\nexport default Demo1","desc":" 这是描述","scss_code":".demo-container {\n    color: rgb(245, 42, 42);\n}"},{"example":<Demo2 />,"title":" 第二个示例","code":"/**\n*\n* @title 第二个示例\n* @description 这是描述\n*\n*/\nimport React, { Component } from 'react';\nclass Demo1 extends Component {\n    render () {\n        return (\n            <div>\n                我是 demo2\n            </div>\n        )\n    }\n}\nexport default Demo1","desc":" 这是描述"}]
 
 
 class Demo extends Component {
